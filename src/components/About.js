@@ -93,7 +93,7 @@ const About = () => {
           Be a part of a growing community of movie enthusiasts. Share reviews,
           rate movies, and engage in lively discussions!
         </p>
-        <a href="/signup" className="btn btn-light btn-lg">
+        <a href="#" className="btn btn-light btn-lg">
           Get Started
         </a>
       </section>
