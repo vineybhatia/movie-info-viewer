@@ -1,4 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link
+import { Nav } from "react-bootstrap";
+
+
 
 const About = () => {
   return (
@@ -86,17 +90,22 @@ const About = () => {
         </div>
       </section>
 
+
       {/* Call to Action Section */}
-      <section className="text-center p-4 bg-primary text-white rounded">
-        <h2>Join Our Community</h2>
-        <p className="mb-4">
-          Be a part of a growing community of movie enthusiasts. Share reviews,
-          rate movies, and engage in lively discussions!
-        </p>
-        <a href="#" className="btn btn-light btn-lg">
-          Get Started
-        </a>
-      </section>
+<section className="text-center p-4 bg-primary text-white rounded">
+  <h2>Join Our Community</h2>
+  <p className="mb-4">
+    Be a part of a growing community of movie enthusiasts. Share reviews,
+    rate movies, and engage in lively discussions!
+  </p>
+  <Nav className="d-flex justify-content-center">
+    <Nav.Link as={Link} to="/">
+      <button className="btn btn-light">Home</button>
+    </Nav.Link>
+  </Nav>
+</section>
+
+
     </div>
   );
 };
