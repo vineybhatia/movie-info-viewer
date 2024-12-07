@@ -1,0 +1,49 @@
+.features-page {
+    font-family: "Arial", sans-serif;
+}
+
+.features-hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Set consistent image size */
+.feature-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.text-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-section .btn {
+    font-size: 1rem;
+}
