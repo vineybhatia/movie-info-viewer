@@ -33,9 +33,9 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="hero-section">
+      <div className="hero-section-home">
       <img src="/hero.jpg" alt="Hero Background" className="hero-image" />
-      <div className="hero-content">
+      <div className="hero-content-home">
         <h1 className="display-3">Welcome to MovieInfo</h1>
         <p className="lead">
           Discover trending movies, explore Hollywood and Bollywood hits, and more!
