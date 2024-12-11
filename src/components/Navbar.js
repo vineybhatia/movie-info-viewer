@@ -13,6 +13,7 @@ const NavigationBar = () => {
             <Nav.Link as={Link} to="/">Home</Nav.Link> {/* Use 'as={Link}' */}
             <Nav.Link as={Link} to="/features">Features</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link> {/* Use 'as={Link}' */}
+            <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
